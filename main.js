@@ -1,8 +1,5 @@
 main();
 
-//
-// start here
-//
 function main() {
   const canvas = document.querySelector("#egg-canvas");
   // Initialize the GL context
@@ -13,6 +10,7 @@ function main() {
     alert(
       "Unable to initialize WebGL. Your browser or machine may not support it.",
     );
+    console.error("Unable to initialize WebGL. Your browser or machine may not support it.")
     return;
   }
 

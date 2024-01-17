@@ -5,11 +5,20 @@
     <title>EGG embedded runtime</title>
     <link rel="stylesheet" href="./main.css">
 
-    <script src="./lib/gl-matrix.min.js" type="module"></script>
+    <script src="./lib/babylon/babylon.js" type="module"></script>
+    <script src="./lib/babylon/gui.min.js" type="module"></script>
+    <script src="./lib/babylon/inspector.bundle.js" type="module"></script>
+    <script src="./lib/babylon/loaders.min.js" type="module"></script>
+    <script src="./lib/babylon/materials.min.js" type="module"></script>
+    <script src="./lib/babylon/postProcess.min.js" type="module"></script>
+    <script src="./lib/babylon/proceduralTextures.min.js" type="module"></script>
+    <script src="./lib/babylon/serializers.min.js" type="module"></script>
+    <script src="./lib/babylon/viewer.js" type="module"></script>
+
     <script src="./main.js" type="module"></script>
 </head>
 <body>
-    <noscript>[fatal]: EGG requires javascript to be enabled.</noscript>
-    <canvas width="1080" height="720" id="egg-canvas"></canvas>
+    <noscript>This requires javascript to be enabled.</noscript>
+    <div id="canvasZone"><canvas id="renderCanvas"></canvas></div>
 </body>
 </html>

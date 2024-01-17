@@ -1,3 +1,3 @@
 # eggl
-egg embedded runtime for browsers.
-quite literally the DUMBEST thing i have ever made.
+egg embedded runtime for browsers and native devices.
+written in rust. not fast, but will get better.
